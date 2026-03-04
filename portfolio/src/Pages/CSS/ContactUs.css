@@ -1,0 +1,111 @@
+.ContactUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:80px;
+    margin: 80px 170px;
+}
+.Contact-title{
+    position: relative;
+
+}
+.Contact-title h1{
+    padding :0px 30px;
+    font-size: 60px;
+    font-weight: 600;
+}
+.Contact-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    height: 100px;
+} 
+.Contact-section{
+    display: flex;
+    gap: 150px;
+
+}
+.Contact-left{
+   display: flex;
+   flex-direction:column ; 
+   gap:40px;
+}
+.Contact-left h1{
+    font-size: 60px;
+    font-weight: 500;
+    background: linear-gradient(270deg, orange, red,yellow,purple);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Contact-left p{
+    max-width: 550px;
+    color: rgb(80, 15, 89);
+    font-size: 20px;
+    line-height: 35px;
+}
+.Contact-detalis{
+    display: flex;
+    flex-direction:column ;
+    gap: 30px;
+    font-size:22px ;
+}
+.Contact-detali{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.Contact-right{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+.Contact-right label{
+    color: rgb(45, 9, 47);
+    font-size: 22px;
+    font-weight: 500;
+
+    
+}
+.Contact-right input{
+    border: none;
+    width: 700px;
+    height: 75px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: rgb(205, 189, 205);
+    color:rgb(126, 112, 116) ;
+    font-family: outfit;
+    font-size: 20px;
+}
+.Contact-right textarea{
+    width: 700px;
+    border:none;
+    padding: 25px;
+    border-radius: 4px;
+    background: rgb(227, 209, 227);
+    color: rgb(18, 17, 18);
+    font-family: outfit;
+    font-size: 20px;
+}
+.Contact-submit{
+    color: rgb(59, 6, 63);
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(264deg,rgb(147, 42, 147),rgb(220, 152, 214));
+    font-size: 22px;
+    padding: 20px 60px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.2s;
+    width: 400px;
+    height: 60px;
+    
+}
+.Contact-submit:hover{
+  transform: scale(1.1);
+  transition: 0.3s; 
+  background: rgb(171, 171, 233); 
+}

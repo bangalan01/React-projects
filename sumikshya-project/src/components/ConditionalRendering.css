@@ -1,0 +1,14 @@
+.greenText{
+    color: green;
+}
+.redText{
+    color: darkred;
+}
+.darkTheme{
+    background-color: black;
+    color: bisque;
+}
+.LightTheme{
+    background-color: whitesmoke;
+    color: black;
+}

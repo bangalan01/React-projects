@@ -1,0 +1,68 @@
+ 
+ .body{
+    background-color: black;
+ }
+ .Projects{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 90px;
+   margin: 60px 190px;
+ }
+ .Projects-title{
+    position: relative;
+
+ }
+ .Projects-title h1{
+    padding: 0px 30px;
+    font-size: 60px;
+    font-weight: 500;
+ }
+ .Projects-title img{
+    position: absolute;
+    box-sizing: 2;
+    right: 0;
+    z-index: -1;
+    bottom: 0;
+    height: 120px;
+ }
+ .Myprojects-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:40px;
+ }
+ .Myprojects-container img{
+    box-sizing: border-box;
+    width: 380px;
+    height: 280px;
+    transition: 0.3s;
+    cursor:pointer;
+ }
+ .Myprojects-container img:hover{
+    transform: scale();
+    border: 5px solid purple;
+    border-radius: 40px;
+    transition: 0.3s;
+ }
+ .Myprojects-showmore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    /* border: 1px solid rgb(235, 34, 101); */
+    border-radius: 50px;
+    padding: 20px 50px;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 80px;
+    transition: 0.6s;
+    cursor: pointer;
+    color: rgb(43, 17, 128);
+   
+ }
+ .Myprojects-showmore:hover{
+    gap: 30px;
+    transition: 0.3s;
+    border: 8px solid palevioletred;
+ }

@@ -1,0 +1,76 @@
+.AboutUs{
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap:80px;
+   margin: 50px 150px;
+}
+.About-title{
+    position: relative;
+}
+.About-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+
+}
+.About-title img{
+    position: absolute;
+    bottom: 0;
+    right:0;
+    z-index: -3;
+    height: 120%;
+    /* mix-blend-mode: multiply; */
+}
+.About-section{
+display: flex;
+gap: 80px;
+}
+.About-left img{
+    position: absolute;
+    left: 0;
+   margin-top: 40px;
+    border-radius:600px;
+    height: 500px;
+    margin-left: 90px;
+    
+}
+.About-right{
+    display: flex;
+    flex-direction:column ;
+    gap:40px;
+    margin-left: 300px;
+    margin-top: 70px;
+}
+.About-para{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.About-skill{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.About-skills{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    transition: 0.3s;
+}
+.About-skills p{
+    min-width: 150px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.About-skills hr{
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, rgb(244, 51, 51),rgb(232, 232, 95),rgb(126, 37, 126),rgb(11, 11, 245));
+}
